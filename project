@@ -1,0 +1,15 @@
+public class Main{
+    public static void main (String[]args){
+
+        //Define weight and height
+        float Weight = 60.0f;
+        float Height = 1.70f;
+
+        // Calculate Body Mass Index (BMI)
+        float bmi = Weight / (Height*Height);
+
+        // Print the BMI result
+        System.out.println("Your Body Mass Index : " + bmi);
+
+    }
+}
